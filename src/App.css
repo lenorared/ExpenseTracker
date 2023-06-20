@@ -1,0 +1,32 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+body {
+  background-color: rgb(231 216 218) !important;
+  background-image: linear-gradient(180deg, rgb(242, 242, 242), #ac89ac);
+}
+
+h1 {
+  /* color: #443444 !important; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  margin-bottom: 50px !important;
+}
+
+.myFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexItem {
+  width: 45%;
+}
+
+.subBtn {
+  background-color: rgb(79, 28, 79) !important;
+  border-color: black !important;
+}
