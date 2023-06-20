@@ -8,10 +8,11 @@ function App() {
  const [selectedCategory, setSelectedCategory] = useState('')
 
  const [expenses, setExpenses] = useState([
-  {id: 1, description: 'aaa', amount: 10, category: 'Utilities'},
-  {id: 2, description: 'aaa', amount: 10, category: 'Groceries'},
-  {id: 3, description: 'aaa', amount: 10, category: 'Entertainment'}, 
-  {id: 4, description: 'aaa', amount: 10, category: 'Utilities'}
+  {id: 1, description: 'Electricity', amount: 75, category: 'Utilities'},
+  {id: 2, description: 'Trader Joe\'s', amount: 100, category: 'Groceries'},
+  {id: 3, description: 'Movies', amount: 18, category: 'Entertainment'}, 
+  {id: 4, description: 'Cable Internet', amount: 85, category: 'Utilities'},
+  {id: 5, description: 'Whole Foods', amount: 80, category: 'Groceries'},
  ])
 
  const visibleExpenses = selectedCategory ? expenses.filter(e => e.category == selectedCategory) : expenses
